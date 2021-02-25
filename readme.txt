@@ -40,7 +40,7 @@ python train_advanced.py --embed-file embeddings/glove.6B.100D.txt --embed-dim 1
 
 # stores the model by default at : serialization_dirs/basic/
 ```
-
+ 
 #### Predict with model
 ```
 python predict_advanced.py --prediction-file advanced_test_prediction.txt --batch-size 10 --load-serialization-dir "serialization_dirs\advanced"
